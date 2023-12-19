@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    align-items: center;
+    justify-content: center;
+    background: black;
+    top: 0;left: 0;right: 0;
+  
+}
+
+
+header .logo span{
+    color: lawngreen;
+}
+header nav a{
+    list-style: none;
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 40px 40px;
+}
+
+header nav a:hover{
+    background: indigo;
+}
+
+@media (max-width:600px) {
+    header .logo span{
+        color: lawngreen;
+    }
+    header nav a{
+        list-style: none;
+        color: white;
+        font-size: 30px;
+        display: block;
+        text-decoration: none;
+        padding: 30px 30px;
+        text-align: center;
+    }
+}
+
+@media (max-width:800px) {
+    header .logo span{
+        color: lawngreen;
+    }
+    header nav a{
+        list-style: none;
+        color: white;
+        font-size: 30px;
+        display: block;
+        text-decoration: none;
+        padding: 30px 30px;
+        text-align: center;
+    }
+}
+
+
+.about{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: burlywood;
+}
+.about form{
+    margin-top: 1rem;
+    background: lawngreen;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem;
+    border: .1rem solid black;
+    width: 70rem;
+    padding: 2rem;
+}
+.about form h3{
+    text-align: center;
+    font-size: 3rem;
+    color: black;  
+    
+}   
+.about form .btn-container{
+display: flex;
+gap: 1.5rem;
+}
+.about form .btn-container .btn{
+    flex: 1;
+}
+
+.about form .btn-container a{
+    text-decoration: none;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3.5rem;
+    border-radius: .5rem;
+    font-size: 20px;
+    color: wheat;
+    background: black;
+    cursor: pointer;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+.btn:hover{
+    background: indigo;
+    color: #fff;
+}
+
+.about form .inputbox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.about form .inputbox input,
+.about form .inputbox select{
+    flex: 1 1 25rem;
+    border: .1rem solid #333;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-transform: none;
+}
+.about form .btn{
+    width: 100%;
+    margin-top: 2rem;
+}
+.heading{
+    text-align: center;
+    color: #333;
+    font-size: 4rem;
+    padding-bottom: 3rem;
+}
+.heading span{
+    color: black;
+    background: lawngreen;
+}
+
+
+
+
+.featureddd{
+    height: 170vh;
+    width: 100%;
+}
+
+@media (max-width:600px) {
+    .featureddd{
+        height: 500vh;
+        width: 10%;
+    }
+}
+.featureddd h1{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+
+
+.test .test-col{
+    height: 50vh;
+}
+.test .test-col img{
+    height: 60px;
+    width: 60px;
+}
+
+.rent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 20px;
+}
+.rent img{
+    height: 350px;
+    width: 350px;
+}
+.buy p{
+    font-size: 30px;
+}
+.buy p img{
+    height: 30px;
+    width: 30px;
+}
+.buy p span{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.services .btn-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.services .btn-container .box{
+    flex: 1 1 4rem;
+    border-radius: .5rem;
+    background: rosybrown;
+    box-shadow: 0.5rem 1rem rgba(0, 0, 0, .1);
+    border: 1rem solid rgba(0, 0, 0, .2);
+    text-align: center;
+    padding: 2rem;
+}
+.services .btn-container .box .btn{
+    text-decoration: none;
+    border-radius: 3rem;
+}
+
+
+.tesmonial{
+    text-align: center;
+    margin-top: 20px;
+    background: rosybrown;
+}
+
+.test{
+display: flex;
+flex-wrap: wrap;
+gap: 1.5rem;
+margin-top: 12px;
+}
+
+.test-col{
+    flex: 1 1 20rem;
+    background:royalblue;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 5%;
+    border: 1px solid #333;
+   
+}
+
+.test-col img{
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+    display: inline-block;
+
+}
+
+.contact{
+    text-align: centre;
+    padding: 10px;  
+  
+}
+
+.contact h1{
+    color: indigo;
+    padding-top: 20px;
+}
+ 
+.contact .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 3%;
+    padding-bottom: 5px;
+}
+
+.contact .container .icons{
+    flex: 1 1 15rem;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    text-align: centre;
+}
+
+.contact .container .icons img{
+    height: 50px;
+    width: 30px;
+}
+
+
+
+.footer .footer-container{
+    background: black;
+    border: 5px solid rgba(0, 0, 0, .2);
+    width: 100%;
+}
+
+.footer-container .bx-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+ .footer-container .bx-container .box{
+    flex: 1 1 15rem;
+   
+}
+.footer-container .bx-container .box h3{
+    color: white;
+}
+.footer-container .bx-container .box a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.credit{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}
